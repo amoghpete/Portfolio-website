@@ -259,7 +259,7 @@ nav a:active {
   }
 
   .smallScr {
-    visibility: hidden;
+    display:none
   }
 
   @media only screen and (max-width: 600px) {
@@ -268,7 +268,7 @@ nav a:active {
     } 
 
     .smallScr {
-      visibility: visible;
+      display:block;
       height: 100vh;
       width: 100vw;
     }
